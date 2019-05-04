@@ -1,0 +1,44 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="fragments.RegisterFragment"
+    android:orientation="vertical">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:id="@+id/Username"
+        android:hint="Enter Username"
+        android:layout_margin="10dp"
+        android:textSize="30sp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:id="@+id/Password"
+        android:hint="Enter Your Password"
+        android:layout_margin="10dp"
+        android:textSize="30sp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:id="@+id/ConPassword"
+        android:hint="Confirm Your  password"
+        android:layout_margin="10dp"
+        android:textSize="30sp"
+        />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="80dp"
+        android:text="Register"
+        android:id="@+id/btnRegister"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:textSize="20sp"/>
+
+</LinearLayout>

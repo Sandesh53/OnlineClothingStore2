@@ -1,0 +1,39 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="fragments.Fragment_Login"
+    android:orientation="vertical">
+    <EditText
+        android:layout_height="80dp"
+        android:layout_width="match_parent"
+        android:layout_margin="20dp"
+        android:hint="Enter your name"
+        android:textSize="30sp"
+        android:id="@+id/etUsername"
+
+        />
+
+    <EditText
+        android:layout_height="80dp"
+        android:layout_width="match_parent"
+        android:layout_margin="20dp"
+        android:hint="Enter your password"
+        android:textSize="30sp"
+        android:id="@+id/etPassword"
+
+
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:layout_gravity="center"
+        android:textColor="@android:color/holo_green_dark"
+        android:textSize="30sp"
+        android:id="@+id/btnLogin"
+        />
+
+
+</LinearLayout>

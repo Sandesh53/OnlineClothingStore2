@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp"
+    android:gravity="center">
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:rowCount="2"
+        android:columnCount="2">
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:id="@+id/itemImage"
+            android:src="@drawable/layout"/>
+    </GridLayout>
+    <!--<TextView-->
+    <!--android:id="@+id/tvItemName"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginStart="20dp"-->
+    <!--android:layout_marginTop="50dp"-->
+    <!--android:layout_toEndOf="@id/itemImage"-->
+    <!--android:textSize="15sp"-->
+    <!--android:hint="Name"/>-->
+
+    <!--<TextView-->
+    <!--android:id="@+id/tvItemPrice"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginStart="-40dp"-->
+    <!--android:layout_marginTop="80dp"-->
+    <!--android:layout_toEndOf="@id/tvItemName"-->
+    <!--android:hint="Price"-->
+    <!--android:textSize="15sp" />-->
+
+</RelativeLayout>
